@@ -30,3 +30,65 @@ h3 {
     max-width: 95%;
     margin: 0 auto;
 }
+
+/* Characters Section */
+.characters__header {
+    background-color: var(--heading-grey);
+}
+
+.characters__list-item {
+    list-style-type: none;
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.characters__list-item:nth-child(odd) {
+    background-color: var(--darker-grey);
+    color: var(--text-light);
+}
+
+.characters__list-item:nth-child(even) {
+    background-color: var(--lighter-grey);
+    color: var(--text-dark);
+}
+
+.characters__list-item:hover {
+    background-color: var(--active-grey);
+    color: var(--text-light);
+}
+
+.characters__list-item.active {
+    background-color: var(--active-grey);
+    color: var(--text-light);
+}
+
+/* Joint person & home styling */
+.person-info,
+.home-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.person-info__name,
+.home-info__name {
+    font-size: 1.8rem;
+}
+
+.person-info__list-item,
+.home-info__list-item {
+    list-style-type: none;
+    padding: 0.2rem 0;
+    font-size: 1.5rem;
+}
+
+/* Person Info */
+.person-info {
+    background-color: var(--text-dark);
+}
+
+/* Home Info */
+.home-info {
+    background-color: var(--darker-grey);
+    color: var(--text-light);
+}
