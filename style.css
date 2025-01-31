@@ -30,3 +30,34 @@ h3 {
     max-width: 95%;
     margin: 0 auto;
 }
+
+/* Search Section */
+.search-section {
+    background-color: var(--background-grey-light);
+    min-height: 50vh;
+}
+
+.search-section__form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0;
+}
+
+.search-section__input {
+    padding: 1rem;
+}
+
+.autocomplete-list {
+    list-style-type: none;
+
+}
+
+.autocomplete-list li {
+    padding: .4rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.autocomplete-list li:hover {
+    background-color: #f4f4f4;
+}
