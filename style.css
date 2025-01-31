@@ -71,3 +71,19 @@ h3 {
     flex-direction: column;
     height: 100%;
 }
+
+/* Page Header */
+.page-header {
+    width: 100%;
+    background-image: url('./resources/header-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-header__title {
+    padding: 8rem 0;
+    font-size: 4rem;
+    color: var(--heading-yellow)
+;}
+
