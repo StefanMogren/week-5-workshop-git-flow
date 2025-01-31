@@ -92,3 +92,60 @@ h3 {
     background-color: var(--darker-grey);
     color: var(--text-light);
 }
+
+/* Main Section */
+.main-section {
+    background-color: var(--background-grey);
+}
+
+.main-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section__box {
+    min-height: 60vh;
+    width: 48%;
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-grey-light);
+    margin-bottom: 2rem;
+}
+
+.characters__header,
+.details__header {
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: var(--heading-yellow);
+    text-align: center;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.details__header {
+    background-color: var(--heading-green);
+}
+
+.details__info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Page Header */
+.page-header {
+    width: 100%;
+    background-image: url('./resources/header-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-header__title {
+    padding: 8rem 0;
+    font-size: 4rem;
+    color: var(--heading-yellow)
+;}
+
