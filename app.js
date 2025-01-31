@@ -15,4 +15,11 @@ function paginationSetup() {
         pagination.nextPage();
         renderCharacters();
     });
+pageSetup();
+
+function pageSetup() {
+    fetchCharacters();
+    paginationSetup();
+    
+    document.querySelector('#searchInput').addEventListener('input', updateAutoCompleteList);
 }
